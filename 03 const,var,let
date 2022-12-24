@@ -1,0 +1,51 @@
+// let v/s var v/s const
+
+/*
+Before ES6 used var anywhere,
+now let is used after ES6 rules.
+Const used, cannot change its value after declare
+*/
+
+console.log("let v/s var v/s const");
+
+// before 
+// var is globally scoped variables
+var a = 45;
+var b = "Shyam"
+let c = 65.23
+var d = null
+var e = undefined
+
+console.log(b)
+console.log(c)
+console.log(" ")
+// after const is added
+
+{
+  var b = "Dange"
+  console.log(b)
+
+  let c = "SD"
+  console.log(c)
+
+  console.log(" ")
+}
+// outside block also it is taking block value.
+console.log(b)
+console.log(c)
+console.log(" ")
+
+const z = 55
+console.log("z")
+
+// z = 45 throws error, as const cannot be changed
+console.log(z)
+/*
+var is globally scoped
+const & let are block scoped
+let can be updated but not re-declared
+const cannot be updated nor re-declare
+const should initilize at same declare time only.
+
+BETTER PRACTICE to use const, let. NOT to use var
+  */
