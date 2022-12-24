@@ -1,0 +1,48 @@
+// Datatype = What type of data
+// 7 premitive data types
+/*
+NULL
+UNDEFINED
+
+STRING
+
+NUMBER
+BIGINT
+
+BOOLEAN
+SYMBOL
+*/
+
+let a = null
+let b = undefined
+let c = "Shyam"
+let d = 45
+let e = BigInt("6424")
+let f = true
+let g = Symbol("I'm a symbol")
+
+console.log(a, b, c, d, e, f, g)
+console.log("")
+
+console.log(typeof (d))
+
+let h      // this is undefined
+console.log(h)
+console.log("")
+console.log("")
+
+
+// Non premitive data types is OBJECTS
+const item = {
+  "name": "Shyam",
+  "age": 23,
+  "married": false,
+  100: 50,
+  "child": undefined
+}
+console.log(item)
+
+// can be accessed by '.' or ['key']
+console.log(item.age)
+console.log(item['age'])
+console.log(item['nvbn'])
