@@ -1,0 +1,28 @@
+// PROMT, ask value and then store
+a = prompt("What is your age?")
+console.log(typeof(a))      // Always returns string
+a = Number.parseInt(a)      // convert string to integer
+console.log(typeof(a))
+
+console.log("");
+// After condition satisfy then only execute perticular block of code.
+/*
+1. If
+2. else
+3. else if
+*/
+ if (a > 0) {
+   console.log("This is valid age");
+ }
+console.log("");
+
+
+ if (a < 0) {
+   console.log("This is NOT a valid age");
+ } else if (a < 10){
+   console.log("You are kid");
+ } else if (a >= 10 && a<18) {
+   console.log("you are not a kid but still you cant drive")
+ } else {
+   console.log("You can drive")
+ }
