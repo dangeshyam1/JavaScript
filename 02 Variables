@@ -1,0 +1,30 @@
+/* 
+Inside variable we can store string, number , object, list, etc
+
+Dynamically typed language - Can store number in variables, after in same program we can store object, string and change datatype of variable at runtime
+
+Static typed language - 'c' language
+
+We have to follow some rules in JS called syntax.
+*/
+
+console.log("Hi, this is 2nd chapter.");
+
+// first we have to declare variables as below
+let a = 55;    // a contains 55
+console.log(a);
+
+a = "shyam"    // now a contains 'shyam' (runtime datatype changed.)
+console.log(a);
+
+let b = 55;    // a contains 55
+console.log(b);
+
+b = "shyam"    // now a contains 'shyam' (runtime datatype changed.)
+console.log(b);
+
+/*
+Cannot start variable name with number.
+cannot use reserved names
+case sensitive (y & Y are diff variables)
+*/
