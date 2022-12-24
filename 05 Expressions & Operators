@@ -1,0 +1,70 @@
+//Expression
+// These are valid expressions
+77
+"Shyam"
+true
+
+//OPERATORS
+
+//Arithmetic
+// +, - = Addition and subtraction
+// *, / = Multiplication and devision
+
+// ** = exponential
+// % = modulus
+// ++, -- = Increment and decrement
+
+let a = 5
+let b = 9
+let c = 2
+console.log("a + b =",a + b)
+console.log(a, "power", c, "=", a**c)
+
+// ++a will first increment then print.
+console.log("")
+console.log("increment", a++)
+console.log("increment", a)
+console.log("increment", ++a)
+console.log("")
+
+// Assignment operator
+// "=" = assignment, a = 8
+// "+="
+a = 10
+console.log(a += b)    // a = a + b
+console.log(a += 2)    // a = a + 2
+
+console.log("")
+console.log("")
+
+
+// Comparison Operator
+/*
+"==" = equal to
+"!=" = not equal to
+"===" = equal value and datatype
+"!==" = not equal value and not equal datatype
+">, <" = greater than, less than
+">=, <=" = greater than equal to, less than equal to
+"?" = ternary operator
+  */
+
+a = 6
+b = 3
+c = "3"
+console.log(a > b)
+console.log(b == c)     // checked value only
+console.log(b === c)    // check type also
+
+console.log("")
+
+// Logical Operators
+//"&&" = AND operator
+//"||" = OR operator
+//"!" = NOT operator
+
+console.log(a==6 && c=="3")
+
+
+//Bitwise operator 
+// Will cover in another videos
